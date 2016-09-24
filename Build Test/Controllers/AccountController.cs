@@ -28,7 +28,7 @@ namespace Build_Test.Controllers
             return View();
         }
 
-        //
+        // GET : /Munnangi
         // POST: /Account/Login
 
         [HttpPost]
