@@ -20,7 +20,7 @@ namespace Build_Test.Controllers
         //
         // GET: /Account/Login
         // Get: /Gopi/nadh/reddy
-        // Get: /Gopinadh reddy/
+        
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
