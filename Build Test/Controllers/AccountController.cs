@@ -17,7 +17,7 @@ namespace Build_Test.Controllers
     [InitializeSimpleMembership]
     public class AccountController : Controller
     {
-        //
+        // GET: /Gopinadh reddy
         // GET: /Account/Login
         // Get: /Gopi/nadh/reddy
         [AllowAnonymous]
