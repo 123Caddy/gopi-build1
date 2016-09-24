@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NuGet.Protocol.Core.v2</name>
+    </assembly>
+    <members>
+        <member name="T:NuGet.Protocol.Core.v2.PackageNameWrapper">
+            <summary>
+            A simple wrapper used to pass a package identity in a legacy IPackageMetadata.
+            </summary>
+        </member>
+        <member name="T:NuGet.Protocol.Core.v2.Strings">
+            <summary>
+               A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:NuGet.Protocol.Core.v2.Strings.ResourceManager">
+            <summary>
+               Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:NuGet.Protocol.Core.v2.Strings.Culture">
+            <summary>
+               Overrides the current thread's CurrentUICulture property for all
+               resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:NuGet.Protocol.Core.v2.Strings.ActionExecutor_RollingBack">
+            <summary>
+               Looks up a localized string similar to Install failed. Rolling back....
+            </summary>
+        </member>
+        <member name="P:NuGet.Protocol.Core.v2.Strings.ActionResolver_UnsupportedAction">
+            <summary>
+               Looks up a localized string similar to Unrecognized Package Action &apos;{0}&apos;..
+            </summary>
+        </member>
+        <member name="P:NuGet.Protocol.Core.v2.Strings.ActionResolver_UnsupportedDependencyBehavior">
+            <summary>
+               Looks up a localized string similar to Unsupported Dependency Behavior &apos;{0}&apos;..
+            </summary>
+        </member>
+        <member name="P:NuGet.Protocol.Core.v2.Strings.DownloadActionHandler_InvalidDownloadUrl">
+            <summary>
+               Looks up a localized string similar to The download URL for {0} &apos;{1}&apos; is invalid..
+            </summary>
+        </member>
+        <member name="P:NuGet.Protocol.Core.v2.Strings.DownloadActionHandler_NoDownloadUrl">
+            <summary>
+               Looks up a localized string similar to No download URL could be found for {0}..
+            </summary>
+        </member>
+        <member name="P:NuGet.Protocol.Core.v2.Strings.Log_ErrorDownloading">
+            <summary>
+               Looks up a localized string similar to Error downloading &apos;{0}&apos; from &apos;{1}&apos;..
+            </summary>
+        </member>
+        <member name="P:NuGet.Protocol.Core.v2.Strings.NuGetRepository_CannotCreateAggregateRepo">
+            <summary>
+               Looks up a localized string similar to Cannot create a NuGet Repository from the Aggregate Source.
+            </summary>
+        </member>
+        <member name="P:NuGet.Protocol.Core.v2.Strings.NuGetServiceProvider_ServiceNotSupported">
+            <summary>
+               Looks up a localized string similar to The {0} service is not supported by this object..
+            </summary>
+        </member>
+        <member name="P:NuGet.Protocol.Core.v2.Strings.PackageActionDescriptionWrapper_UnrecognizedAction">
+            <summary>
+               Looks up a localized string similar to Unrecognized Package Action &apos;{0}&apos;..
+            </summary>
+        </member>
+        <member name="P:NuGet.Protocol.Core.v2.Strings.ProjectInstallationTarget_ProjectIsNotTargetted">
+            <summary>
+               Looks up a localized string similar to The project &apos;{0}&apos; is not one of the projects targetted by this object..
+            </summary>
+        </member>
+        <member name="P:NuGet.Protocol.Core.v2.Strings.Protocol_FailedToDownloadPackage">
+            <summary>
+               Looks up a localized string similar to An error occurred while downloading package &apos;{0}&apos; from source &apos;{1}&apos;..
+            </summary>
+        </member>
+        <member name="P:NuGet.Protocol.Core.v2.Strings.Protocol_IndexMissingResourcesNode">
+            <summary>
+               Looks up a localized string similar to Service index document is missing the &apos;resources&apos; property..
+            </summary>
+        </member>
+        <member name="P:NuGet.Protocol.Core.v2.Strings.Protocol_MissingRegistrationBase">
+            <summary>
+               Looks up a localized string similar to The source does not have a Registration Base Url defined!.
+            </summary>
+        </member>
+        <member name="P:NuGet.Protocol.Core.v2.Strings.Protocol_MissingSearchService">
+            <summary>
+               Looks up a localized string similar to The source does not have a Search service!.
+            </summary>
+        </member>
+        <member name="P:NuGet.Protocol.Core.v2.Strings.Protocol_PackageMetadataError">
+            <summary>
+               Looks up a localized string similar to An error occurred while retrieving package metadata for &apos;{0}&apos; from source &apos;{1}&apos;..
+            </summary>
+        </member>
+        <member name="P:NuGet.Protocol.Core.v2.Strings.RequiredFeatureUnsupportedException_DefaultMessageWithFeature">
+            <summary>
+               Looks up a localized string similar to The &apos;{0}&apos; installation feature was required by a package but is not supported on the current host..
+            </summary>
+        </member>
+        <member name="P:NuGet.Protocol.Core.v2.Strings.RequiredFeatureUnsupportedException_DefaultMessageWithoutFeature">
+            <summary>
+               Looks up a localized string similar to The installation host does not support a feature required by this package..
+            </summary>
+        </member>
+        <member name="T:NuGet.Protocol.Core.v2.V2PackageSource">
+            <summary>
+            Allows an IPackageRepository repository to be passed in to a SourceRepository
+            </summary>
+        </member>
+        <member name="T:NuGet.Protocol.Core.v2.DownloadResourceV2Provider">
+            <summary>
+            Resource provider for V2 download.
+            </summary>
+        </member>
+        <member name="T:NuGet.Protocol.Core.v2.PackageRepositoryResourceV2Provider">
+            <summary>
+            Creates/caches IPackageRepositories
+            </summary>
+        </member>
+        <member name="T:NuGet.Protocol.Core.v2.V2ResourceProvider">
+            <summary>
+            Partial implementation for IResourceProvider to do the common V2 specific stuff.
+            </summary>
+        </member>
+        <member name="T:NuGet.Protocol.Core.v2.DependencyInfoResourceV2">
+            <summary>
+            A V2 dependency info gatherer.
+            </summary>
+        </member>
+        <member name="M:NuGet.Protocol.Core.v2.DependencyInfoResourceV2.ResolvePackage(NuGet.Packaging.Core.PackageIdentity,NuGet.Frameworks.NuGetFramework,NuGet.Logging.ILogger,System.Threading.CancellationToken)">
+            <summary>
+            Retrieve dependency info for a single package.
+            </summary>
+            <param name="package">package id and version</param>
+            <param name="projectFramework">project target framework. This is used for finding the dependency group</param>
+            <param name="token">cancellation token</param>
+            <returns>
+            Returns dependency info for the given package if it exists. If the package is not found null is
+            returned.
+            </returns>
+        </member>
+        <member name="M:NuGet.Protocol.Core.v2.DependencyInfoResourceV2.ResolvePackages(System.String,NuGet.Frameworks.NuGetFramework,NuGet.Logging.ILogger,System.Threading.CancellationToken)">
+            <summary>
+            Retrieve dependency info for a single package.
+            </summary>
+            <param name="package">package id and version</param>
+            <param name="projectFramework">project target framework. This is used for finding the dependency group</param>
+            <param name="token">cancellation token</param>
+            <returns>
+            Returns dependency info for the given package if it exists. If the package is not found null is
+            returned.
+            </returns>
+        </member>
+        <member name="M:NuGet.Protocol.Core.v2.DependencyInfoResourceV2.CreateDependencyInfo(NuGet.IPackage,NuGet.Frameworks.NuGetFramework)">
+            <summary>
+            Convert a V2 IPackage into a V3 PackageDependencyInfo
+            </summary>
+        </member>
+        <member name="M:NuGet.Protocol.Core.v2.DownloadResourceV2.MatchPackageHash(NuGet.IPackage,System.String)">
+            <summary>
+            True if the given package matches hash
+            </summary>
+        </member>
+        <member name="T:NuGet.Protocol.Core.v2.PackageRepositoryResourceV2">
+            <summary>
+            Holds an IPackageRepository
+            </summary>
+        </member>
+        <member name="T:NuGet.Protocol.Core.v2.V2Resource">
+            <summary>
+            Represents a resource provided by a V2 server. [ Like search resource, metadata resource]
+            *TODOS: Add a trace source , Resource description ?
+            </summary>
+        </member>
+        <member name="T:NuGet.Shared.HashCodeCombiner">
+            <summary>
+            Hash code creator, based on the original NuGet hash code combiner/ASP hash code combiner implementations
+            </summary>
+        </member>
+        <member name="M:NuGet.Shared.HashCodeCombiner.GetHashCode(System.Object[])">
+            <summary>
+            Create a unique hash code for the given set of items
+            </summary>
+        </member>
+    </members>
+</doc>
