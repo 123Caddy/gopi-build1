@@ -20,6 +20,7 @@ namespace Build_Test.Controllers
         // GET: /Gopinadh reddy
         // GET: /Account/Login
         // Get: /Gopi/nadh/reddy
+        
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
@@ -27,7 +28,7 @@ namespace Build_Test.Controllers
             return View();
         }
 
-        //
+        // GET : /Munnangi
         // POST: /Account/Login
 
         [HttpPost]
